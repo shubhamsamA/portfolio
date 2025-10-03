@@ -26,11 +26,6 @@ export default function Footer() {
             </Link>
 
           </li>
-            <li>
-            <Link to="contact" smooth={true} duration={500}>
-                Contact
-            </Link>
-            </li>
         </ul>
 
         {/* Right Section - Social Media Icons */}
