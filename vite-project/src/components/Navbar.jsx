@@ -34,7 +34,6 @@ export default function Navbar() {
             <NavLink to="home" icon={<Home size={24} />} />
             <NavLink to="appleCardsCarouselDemo" icon={<FaLaptopCode size={24} />} />
             <NavLink to="about" icon={<FaUserTie size={24} />} />
-            <NavLink to="contact" icon={<Mail size={24} />} />
             <a href="https://github.com/shubhamsamA" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 cursor-pointer transition-all duration-300 ease-in-out">
               <Github size={24} />
             </a>
@@ -52,7 +51,6 @@ export default function Navbar() {
         <DockNavLink to="home" icon={<Home size={24} />} />
         <DockNavLink to="appleCardsCarouselDemo" icon={<FaLaptopCode size={24} />} />
         <DockNavLink to="about" icon={<FaUserTie size={24} />} />
-        <DockNavLink to="contact" icon={<Mail size={24} />} />
         <a href="https://github.com/shubhamsamA" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center hover:text-blue-400 transition-all duration-300 ease-in-out">
           <Github size={24} />
           <span className="text-xs">GitHub</span>
