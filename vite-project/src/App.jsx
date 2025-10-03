@@ -2,7 +2,6 @@
 import Navbar from "./components/Navbar";
 import Homes from "./pages/Homes";
 import Footer from "./components/Footer";
-import Contact from "./components/Contact";
 import About from "./components/About";
 import AppleCardsCarouselDemo from "./components/AppleCardsCarouselDemo";
 import { Element } from "react-scroll";
@@ -41,9 +40,6 @@ export default function App() {
       </Element>
       <Element name="about">
         <About />
-      </Element>
-      <Element name="contact">
-        <Contact/>
       </Element>
       <Footer />
     </div>
