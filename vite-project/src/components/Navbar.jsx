@@ -1,10 +1,9 @@
-import React from "react";
+
 import { Link } from "react-scroll";
 import { motion } from "framer-motion";
-import { Home, Briefcase, Mail, Github } from "lucide-react";
+import { Home,  Mail, Github } from "lucide-react";
 import {FaUserTie,FaLaptopCode} from "react-icons/fa";
 
-import Logo from "../assets/logo.png";
 
 export default function Navbar() {
   return (

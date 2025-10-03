@@ -1,4 +1,3 @@
-import React from "react";
 import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import { Link } from "react-scroll";
 

@@ -1,4 +1,4 @@
-import React, {
+import  {
   useEffect,
   useRef,
   useState,
@@ -10,11 +10,12 @@ import {
   IconArrowNarrowRight,
   IconX,
 } from "@tabler/icons-react";
-import { cn } from "../utils/cn";
+
 import { AnimatePresence, motion } from "framer-motion";
 import { useOutsideClick } from "../hooks/useOutsideClick"; // Ensure you have this hook
 import { FaGithub } from "react-icons/fa";
 import TextGenerateEffect from "./TextGenerateEffect";
+import { EyeIcon } from "lucide-react";
 
 export const CarouselContext = createContext({
   onCardClose: () => { },
@@ -167,25 +168,35 @@ export const Card = ({ card, index, layout = false }) => {
   <div className="absolute h-full top-0 inset-x-0 bg-gradient-to-b  via-transparent to-transparent z-30 pointer-events-none" />
 
   
-  <div className="absolute bottom-0 left-0 w-full z-20 p-6 ">
+  <div className="absolute bottom-0 left-0 w-full z-20 p-6 bg-white ">
    
     <p className="text-black sm:text-xl md:text-3xl font-semibold font-sans ">
       {card.category}
     </p>
 
    
-    <div className="flex flex-row bg items-center gap-4 mt-4 flex-wrap">
-      <div className="">
-      {card.github && (
-        <a 
-        href={card.github} 
-        target="_blank" 
-        rel="noopener noreferrer" 
-        className="flex items-center gap-2 text-black hover:text-gray-700 transition"
-        >
-          <FaGithub className="h-6 w-6 " />
-        </a>
-      )}
+  <div className="flex flex-row items-center gap-4 mt-4 flex-wrap ">
+  {card.github && (
+    <a 
+      href={card.github} 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="flex items-center gap-2 text-black hover:text-gray-700 transition px-2"
+    >   
+      <FaGithub className="h-6 w-6 " />
+    </a>
+  )}
+
+  {card.website && (
+    <a 
+      href={card.website}
+      target="_blank" 
+      rel="noopener noreferrer" 
+      className="flex items-center gap-2 text-black hover:text-gray-700 transition"
+    >
+      <EyeIcon className="h-6 w-6 " />
+    </a>  
+  )}
       </div>
 
       {/* Technologies */}
@@ -200,7 +211,7 @@ export const Card = ({ card, index, layout = false }) => {
         ))}
       </div>
     </div>
-  </div>
+
 </motion.button>
     </>
   );
