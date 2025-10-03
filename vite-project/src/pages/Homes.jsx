@@ -92,12 +92,11 @@ export default function Homes() {
             Resume
           </a>
 
-          <Link
-            to="contact" smooth={true} duration={500}
-            className=" flex items-center gap-2 px-4 py-2 bg-gray-800 hover:bg-gray-800 text-white font-semibold rounded-lg hover:cursor-pointer"
-          >
-            Hire Me
-          </Link>
+        
+            <a href="mailto:shubham320749@gmail.com">
+            <FaEnvelope  className=" flex items-center gap-2 px-4 py-2 bg-gray-800 hover:bg-gray-800 text-white font-semibold rounded-lg hover:cursor-pointer" />
+          </a>
+        
         </motion.div>
       </motion.div>
     </div>
