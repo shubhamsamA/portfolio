@@ -76,6 +76,7 @@ const data = [
     </div>
   ),
   github: "https://github.com/shubhamsamA/moment",
+   website: "https://moment-2l9n.vercel.app/",
   technologies: "Next.js, PostgreSQL",
 },
 
