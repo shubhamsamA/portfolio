@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Raw from "../Raw"; // Animated background component
-import { FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaDatabase,FaEnvelope  } from "react-icons/fa";
 import { SiMongodb, SiTailwindcss, SiCplusplus, SiNextdotjs, SiPostgresql } from "react-icons/si";
 import { Eye } from "lucide-react";
 import { Link } from "react-scroll";
