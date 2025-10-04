@@ -93,8 +93,8 @@ export default function Homes() {
           </a>
 
         
-            <a href="mailto:shubham320749@gmail.com">
-            <FaEnvelope  className=" flex items-center gap-2 px-4 py-2 bg-gray-800 hover:bg-gray-800 text-white font-semibold rounded-lg hover:cursor-pointer" />
+            <a href="mailto:shubham320749@gmail.com"  className=" flex items-center gap-2 px-4 py-2 bg-gray-800 hover:bg-gray-800 text-white font-semibold rounded-lg hover:cursor-pointer">
+            <FaEnvelope size={18}  />
           </a>
         
         </motion.div>
