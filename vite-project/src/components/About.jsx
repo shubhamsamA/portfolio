@@ -114,7 +114,7 @@ const About = () => {
         transition={{ delay: 1, duration: 1 }}
       >
         <a
-          href="/resume.pdf"
+          href="shubham_resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg"
