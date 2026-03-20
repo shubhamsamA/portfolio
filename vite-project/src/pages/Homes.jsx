@@ -81,7 +81,7 @@ export default function Homes() {
           transition={{ delay: 2, duration: 1, ease: "easeOut" }}
         >
           <a
-            href="/resume.pdf"
+            href="/shubham_resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
 
